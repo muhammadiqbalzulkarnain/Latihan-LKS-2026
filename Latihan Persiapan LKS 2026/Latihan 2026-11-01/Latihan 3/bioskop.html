@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Tiket Bioskop</title>
+</head>
+<body>
+
+    <h2>Form Pemesanan Tiket (Rating 17+)</h2>
+    
+    <form id="formBioskop">
+        <div>
+            <label>Nama Pemesan:</label><br>
+            <input type="text" id="nama" placeholder="Nama lengkap...">
+        </div>
+        <br>
+        <div>
+            <label>Usia Anda:</label><br>
+            <input type="number" id="usia" placeholder="Masukkan usia...">
+        </div>
+        <br>
+        <button type="submit">Cetak Tiket</button>
+    </form>
+
+    <p id="pesanError" style="color: red; font-weight: bold;"></p>
+    <p id="pesanSukses" style="color: green; font-weight: bold;"></p>
+
+    <script src="bioskop.js" defer></script>
+</body>
+</html>

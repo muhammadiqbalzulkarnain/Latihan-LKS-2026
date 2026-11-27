@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Restoran</title>
+</head>
+
+<body>
+
+    <h1>Daftar Pesanan Restoran</h1>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Menu</th>
+                <th>Harga Satuan</th>
+                <th>Jumlah</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody id="tabelMenu">
+            <!-- Data menu akan dimasukkan otomatis oleh JavaScript -->
+        </tbody>
+    </table>
+
+    <h3>Total Belanja: <span id="totalBelanja">Rp 0</span></h3>
+    <h3>PPN (11%): <span id="pajak">Rp 0</span></h3>
+    <h2>Total Harus Dibayar: <span id="totalBayar">Rp 0</span></h2>
+
+    <script src="restoran.js" defer></script>
+</body>
+
+</html>

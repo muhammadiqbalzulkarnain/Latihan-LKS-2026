@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Tagihan Listrik</title>
+</head>
+<body>
+
+    <h2>Simulasi Pembayaran Tagihan Listrik</h2>
+
+    <div>
+        <p>Nama Pelanggan: <span id="namaPelanggan"></span></p>
+        <p>Golongan Daya: <span id="golongan"></span></p>
+        <p>Pemakaian (kWh): <span id="pemakaianKwh"></span> kWh</p>
+        <p>Status Pembayaran: <span id="statusBayar"></span></p>
+        <hr>
+        <p>Biaya Pemakaian: <span id="biayaPemakaian"></span></p>
+        <p>Denda Keterlambatan: <span id="denda"></span></p>
+        <h3>Total Yang Harus Dibayar: <span id="totalTagihan"></span></h3>
+
+        <button onclick="hitungTagihan()">Hitung Tagihan</button>
+    </div>
+
+    <script src="listrik.js" defer></script>
+</body>
+</html>

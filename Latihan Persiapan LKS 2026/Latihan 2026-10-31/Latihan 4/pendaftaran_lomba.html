@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Lomba</title>
+</head>
+
+<body>
+
+    <h2>Form Pendaftaran Peserta LKS</h2>
+
+    <!-- Elemen Form -->
+    <form id="formPendaftaran">
+        <div>
+            <label>Nama Lengkap:</label><br>
+            <input type="text" id="nama" placeholder="Masukkan nama...">
+        </div>
+        <br>
+        <div>
+            <label>Umur:</label><br>
+            <input type="number" id="umur" placeholder="Masukkan umur...">
+        </div>
+        <br>
+        <button type="submit">Daftar Sekarang</button>
+    </form>
+
+    <!-- Tempat untuk menampilkan pesan pemberitahuan -->
+    <p id="pesanError" style="color: red; font-weight: bold;"></p>
+    <p id="pesanSukses" style="color: green; font-weight: bold;"></p>
+
+    <!-- Menghubungkan file JavaScript -->
+    <script src="pendaftaran.js" defer></script>
+</body>
+
+</html>
